@@ -1,0 +1,84 @@
+/*
+ ステータス整理
+ ・ステータス縦並び
+ ・背景なし
+*/
+
+/* OBS */
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* カットイン */
+.sc-gJwTLC,
+/* 背景 */
+.sc-TRNrF,
+/* 盤面 */
+.sc-djvmMF,
+/* チャット */
+.MuiDrawer-root,
+/* 吹き出し */
+.sc-djUGQo,
+/* モーダル削除 */
+[role="presentation"],
+/* ヘッダー削除 */
+header>.MuiToolbar-gutters,
+/* 音量 */
+.sc-ikjQzJ,
+/* 拡大縮小 */
+.sc-hZgfyJ,
+/* 鉛筆ボタン */
+.sc-dSuTWQ,
+/* 監視モード */
+.MuiSnackbar-root,
+/* タイマー */
+.sc-hAsxaJ,
+/* スクロールバー */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/**************************
+　ステータス
+**************************/
+/* 上下の調整 */
+.sc-cwpsFg {
+  top: 10px;
+  padding: 0;
+}
+
+/* アイコンサイズ調整 */
+.MuiBadge-root,
+.MuiBadge-root>div,
+.MuiBadge-root>div>button,
+.MuiBadge-root>div>button>img {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+/* イニシアティブ削除 */
+.MuiBadge-badge {
+  display: none;
+}
+
+/* サイズ調整 */
+.MuiTypography-body2 {
+  font-size: 2rem;
+}
+
+.sc-hsOonA>div>div>div,
+.sc-hsOonA>div>div>div>div:nth-child(2)>div {
+  height: 48px;
+}
+
+.sc-hsOonA>div>div>div {
+  width: 200px;
+}
+
+.MuiTypography-body2 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
