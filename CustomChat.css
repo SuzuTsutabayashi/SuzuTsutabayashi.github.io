@@ -1,0 +1,41 @@
+/*
+　・チャットを4秒後に非表示にフェードアウトする
+*/
+@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/chat/main.css");
+
+.MuiListItem-gutters {
+  animation-name: fadeRightToLeft, feadOut;
+  animation-duration: 2s, 2s;
+  animation-delay: 0s, 4s;
+  animation-fill-mode: none, both;
+}
+
+@keyframes fadeRightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes feadOut {
+  o% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    height: 0;
+    min-height: 0 !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.sc-cNKqjZ>div:nth-child(1)>div>div>div:nth-last-child(-n+3) {
+    display: block !important;
+}
