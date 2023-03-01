@@ -12,29 +12,29 @@ body {
 }
 
 /* カットイン */
-.sc-gJwTLC,
+.sc-hZgfyJ,
 /* 背景 */
-.sc-TRNrF,
+.sc-fctJkW,
 /* 盤面 */
-.sc-djvmMF,
+.sc-hKdnnL,
 /* チャット */
 .MuiDrawer-root,
 /* 吹き出し */
-.sc-djUGQo,
+.MuiPaper-elevation1,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
 header>.MuiToolbar-gutters,
 /* 音量 */
-.sc-ikjQzJ,
+.sc-caXVBt,
 /* 拡大縮小 */
-.sc-hZgfyJ,
+.sc-itUGML,
 /* 鉛筆ボタン */
-.sc-dSuTWQ,
+.MuiButtonBase-root,
 /* 監視モード */
 .MuiSnackbar-root,
 /* タイマー */
-.sc-hAsxaJ,
+.MuiPaper-elevation5,
 /* スクロールバー */
 ::-webkit-scrollbar {
   display: none !important;
@@ -44,8 +44,8 @@ header>.MuiToolbar-gutters,
 　ステータス
 **************************/
 /* 上下の調整 */
-.sc-cwpsFg {
-  top: 10px;
+.sc-jmnVvD {
+  top: 0;
   padding: 0;
 }
 
@@ -68,12 +68,12 @@ header>.MuiToolbar-gutters,
   font-size: 2rem;
 }
 
-.sc-hsOonA>div>div>div,
-.sc-hsOonA>div>div>div>div:nth-child(2)>div {
+.sc-jmnVvD>div>div>div>div,
+.sc-jmnVvD>div>div>div>div>div:nth-child(2)>div {
   height: 48px;
 }
 
-.sc-hsOonA>div>div>div {
+.sc-jmnVvD>div>div>div>div {
   width: 200px;
 }
 
