@@ -1,7 +1,3 @@
-/*
-　吹き出し
-　・アイコン表示リデザインなし
-*/
 /* OBS */
 body {
   background-color: rgba(0, 0, 0, 0);
@@ -9,26 +5,37 @@ body {
   overflow: hidden;
 }
 
+/**************************
+　個別
+**************************/
 /* カットイン */
-.sc-hZgfyJ,
+div[open],
 /* 背景 */
-.sc-fctJkW,
+.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorDefault.MuiPaper-elevation0+div,
 /* 盤面 */
-.sc-hKdnnL,
+div[tabindex="0"]>div:nth-child(1),
 /* キャラ */
-.sc-jmnVvD,
+.MuiButtonBase-root+div+div:not(.MuiPaper-root),
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded+div,
 /* チャット */
-.MuiDrawer-root,
+.MuiDrawer-root.MuiDrawer-docked {
+  display: none !important;
+}
+
+/**************************
+　共通
+**************************/
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
+/* headerのみだとチャットのタブも消える */
 header>.MuiToolbar-gutters,
 /* 音量 */
-.sc-caXVBt,
+div[tabindex="0"]>div:nth-child(3),
 /* 拡大縮小 */
-.sc-itUGML,
+.MuiButtonBase-root+div,
 /* 鉛筆ボタン */
-.MuiFab-root,
+.MuiButtonBase-root.MuiFab-root,
 /* 監視モード */
 .MuiSnackbar-root,
 /* タイマー */
@@ -69,8 +76,4 @@ div[tabindex="0"] {
 .MuiToolbar-root+div {
   padding: 0px 24px 16px;
   height: 160px;
-}
-
-.MuiPaper-root>img[src=""] {
-  display: none;
 }
