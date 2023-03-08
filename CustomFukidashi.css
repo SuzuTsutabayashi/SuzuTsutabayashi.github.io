@@ -77,3 +77,7 @@ div[tabindex="0"] {
   padding: 0px 24px 16px;
   height: 160px;
 }
+
+.MuiPaper-root>img[src=""] {
+  display: none;
+}
