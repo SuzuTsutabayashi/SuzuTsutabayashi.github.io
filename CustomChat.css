@@ -1,7 +1,7 @@
 /*
 　・チャットを4秒後に非表示にフェードアウトする
 */
-@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/chat/main.css");
+@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/chat/option_animation_b2t.css");
 
 .MuiListItem-gutters {
   animation-name: fadeRightToLeft, feadOut;
